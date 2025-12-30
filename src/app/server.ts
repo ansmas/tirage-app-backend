@@ -245,24 +245,9 @@ app.get("/sessions/:id/result", (req, res) => {
 /* =======================
    Start
 ======================= */
-
-// app.post("/debug/draw", (req, res) => {
-//   try {
-//     const users: User[] = req.body.users;
-
-//     const assignments = generateAssignments(users);
-
-//     res.json({
-//       success: true,
-//       assignments: Object.fromEntries(assignments),
-//     });
-//   } catch (err) {
-//     res.status(400).json({
-//       success: false,
-//       error: (err as Error).message,
-//     });
-//   }
-// });
+app.get("/", (_req, res) => {
+  res.json({ status: "ok" });
+});
 
 app.listen(PORT, () => {
   console.log(`Backend running on ${PORT}`);
