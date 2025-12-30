@@ -1,0 +1,14 @@
+{
+     "workbench.colorCustomizations": {
+          "[Tokyo Night Storm]": {
+               "editor.selectionBackground": "#6b0025",
+               "editor.selectionHighlightBackground": "#6b0025"
+          },
+          "[Tokyo Night Light]": {
+               "editor.selectionBackground": "#feb95c",
+               "editor.selectionHighlightBackground": "#feb95c"
+          },
+          "minimap.background": "#2c74c830",
+          "scrollbar.shadow": "#2c74c830"
+     }
+}
