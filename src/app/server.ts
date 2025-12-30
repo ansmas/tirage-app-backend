@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://delux-salmiakki-e0a160.netlify.app",
+      "https://deluxe-salmiakki-e0a160.netlify.app",
     ],
     credentials: true,
   })
