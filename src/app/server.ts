@@ -8,10 +8,14 @@ const PORT = process.env.PORT || 3001;
 app.use(express.json());
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: [
+      "http://localhost:5173",
+      "https://delux-salmiakki-e0a160.netlify.app",
+    ],
     credentials: true,
   })
 );
+
 
 /* =======================
    Types
